@@ -1,0 +1,8 @@
+{
+  "name": "ukfast/pokedex",
+  "description": "The UKFast PHP developer test",
+  "type": "project",
+  "require": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
