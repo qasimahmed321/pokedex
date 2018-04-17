@@ -1,4 +1,4 @@
-# ukfast/pokedex
+# ukfast/pokédex
 
 **This project will be based primarily on your ability to fulfill the task 
 requirements. Any potential design skills are a bonus, but usability, 
@@ -32,13 +32,13 @@ specific pokémon, including:
  - Height and weight
  - Abilities
  
- A RESTful API is available at [Pokéapi](https://pokeapi.co/) which will 
- provide you with all the data that you will need. You do not need to 
- create an account nor authenticate in order to consume the API, however 
- please be aware that this API is rate-limited.
+A RESTful API is available at [Pokéapi](https://pokeapi.co/) which will 
+provide you with all the data that you will need. You do not need to create 
+an account nor authenticate in order to consume the API, however please 
+be aware that this API is rate-limited.
  
- It is advised that you spend no more than two to three hours on this 
- assignment.
+To get started, we've given you a skeleton folder structure. It is advised 
+that you spend no more than two to three hours on this assignment.
  
 ## Submission
 To submit your solution, please fork this repository and provide us a link 
