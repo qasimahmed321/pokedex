@@ -9,7 +9,7 @@ To get started, you'll need the following:
  - [Composer](https://getcomposer.org/)
  - git
  
- You will also need to set your document root as pokedex' root. 
+ You will also need to set your document root as pokedex' directory. 
  
  This source is made using the Slim framework. Templates made with Twig using Bootstrap for styling. 
  
