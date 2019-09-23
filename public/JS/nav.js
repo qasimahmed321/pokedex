@@ -1,9 +1,9 @@
 function search() {
-    if($("#name").val()){
-        window.location.href = "/Pokemon/"+$("#name").val().toLowerCase();
+    if($("#pokename").val()){
+        window.location.href = "/Pokemon/"+$("#pokename").val().toLowerCase();
     }
 }
-$("#name").on('keyup', function (e) {
+$("#pokename").on('keyup', function (e) {
     if (e.keyCode === 13) {
         search();
     }

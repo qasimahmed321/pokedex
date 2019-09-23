@@ -48,13 +48,16 @@ class ViewPokemon
         $this->pokemonCheck($args, $response, $args);
 
         $info = $this->parser->verify_return($this->apiCall($args['pokemon']),[$view, $response]);
-        $view->render($response, "Pokemon.html.twig", [
-            "name"=>$info['name'],
-            "height"=>($info["height"]/10),
-            "weight"=>($info["weight"]/10),
-            "species"=>$info["species"]['name'],
-            "abilities"=>$info["abilities"],
-            "sprites"=>array_reverse($this->processImages($info['sprites']))
-        ]);
+        if($info != false){
+            $view->render($response, "Pokemon.html.twig", [
+                "name"=>$info['name'],
+                "height"=>($info["height"]/10),
+                "weight"=>($info["weight"]/10),
+                "species"=>$info["species"]['name'],
+                "abilities"=>$info["abilities"],
+                "sprites"=>array_reverse($this->processImages($info['sprites']))
+            ]);
+        }
+
     }
 }
