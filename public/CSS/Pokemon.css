@@ -1,0 +1,9 @@
+.imgfix{
+    width:45%;
+    height: 40%;
+}
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators{
+    filter: invert(100%);
+}

@@ -27,7 +27,7 @@ specific pokémon, including:
  - Abilities
 
 ##Extending
-This project is not user authenticated, however can easily be extended to have user authentication.
+This project is not user authentica, however can easily be extended to have user authentication.
  
 [Pokéapi](https://pokeapi.co/) is used for all data requests. This API is rate-limited.
 

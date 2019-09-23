@@ -1,0 +1,22 @@
+.ulSet {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-type: none;
+}
+
+.liSet{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.customLink{
+    color: black !important;
+}
+
+.customLink:hover{
+    color: blue !important;
+}
+.size-150{
+    width:150px;
+}
