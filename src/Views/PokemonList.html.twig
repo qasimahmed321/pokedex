@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Pokédex Home</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="CSS/PokemonList.css" type="text/css">
+
+</head>
+
+<body>
+
+{% include 'Templates/nav.html.twig' %}
+    <div class="container">
+        <br/>
+        <h1>Pokemons: </h1>
+        <div class="jumbotron">
+            <ul class="ulSet">
+                {% for pokemon in pokemons %}
+                    <li class="liSet"><a class="customLink" href="/Pokemon/{{ pokemon['name'] }}">{{ pokemon['name']|capitalize }}</a></li>
+                {% endfor %}
+
+            </ul>
+        </div>
+        <a href="/PokemonList/{{ page-1 }}"+pagePrevious><button class="btn btn-outline-primary float-left size-150">Previous</button></a>
+        <a href="/PokemonList/{{ page+1 }}"+pagePrevious><button class="btn btn-outline-primary float-right size-150">Next</button></a>
+    </div>
+
+</body>
+
+</html>
